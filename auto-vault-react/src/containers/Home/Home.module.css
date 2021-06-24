@@ -1,0 +1,11 @@
+.nav {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.main {
+  min-height: calc(100vh - 16rem - 4rem - 3.5rem);
+}

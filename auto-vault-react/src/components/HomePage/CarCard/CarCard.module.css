@@ -1,0 +1,46 @@
+.container {
+  background: white;
+  text-align: center;
+  height: max-content;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.4rem !important;
+}
+.text {
+  font-weight: 400 !important;
+  color: black !important;
+  font-style: inherit;
+}
+
+.btn {
+  color: black;
+  font-weight: 800;
+  background: orange;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: yellow;
+}
+.btn:hover {
+  color: orange;
+  background: black;
+  border: none;
+  text-decoration: none;
+}
+
+@media (min-width: 55rem) {
+  .container {
+    flex: 0 48%;
+  }
+  .card-body {
+    text-align: center;
+  }
+}
+
+@media (min-width: 65rem) {
+  .container {
+    flex: 0 31% 31%;
+  }
+  .card-body {
+    text-align: center;
+  }
+}

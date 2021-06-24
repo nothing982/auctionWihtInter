@@ -1,0 +1,12 @@
+.link {
+  color: black;
+  padding-bottom: 0.5rem;
+}
+.link:hover {
+  color: #ff1b68 !important;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}

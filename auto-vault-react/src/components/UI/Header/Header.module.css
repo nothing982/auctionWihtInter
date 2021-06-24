@@ -1,0 +1,49 @@
+.btn-submit {
+  color: white;
+  background: #ff1b68;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  border: #ff1b68;
+}
+.nav {
+  background: white;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.btn-submit:hover {
+  color: #ff1b68;
+  background: white;
+  border: none;
+}
+
+.logo {
+  border-radius: 16px;
+  height: 3rem;
+  width: 3rem;
+}
+
+.divider {
+  border: thin solid black;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    transparent calc(50% - 0.81px),
+    black calc(50% - 0.8px),
+    black calc(50% + 0.8px),
+    transparent calc(50% + 0.81px),
+    transparent 100%
+  );
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 13.5rem;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: flex-end;
+}

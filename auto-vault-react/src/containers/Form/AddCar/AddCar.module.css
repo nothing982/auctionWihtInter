@@ -1,0 +1,26 @@
+.container {
+  width: 70%;
+}
+
+@media (min-width: 40rem) {
+  .container {
+    width: 400px;
+  }
+}
+
+.btn-submit {
+  color: white;
+  background: #ff1b68;
+  margin-top: 0.5rem;
+  padding: 0.8rem 4rem;
+  border-radius: 8px;
+  font-weight: bold;
+  border: #ff1b68;
+  text-align: center;
+}
+
+.btn-submit:hover {
+  color: #ff1b68;
+  background: white;
+  border: none;
+}

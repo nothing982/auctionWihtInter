@@ -1,0 +1,56 @@
+.btn-secondary1 {
+  /* background: #a9a9a9 !important; */
+  background: #ff5454 !important;
+  color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: block;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+.jumbotron-img {
+  background-image: url("01.jpg");
+}
+
+.faqtop {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+.faqdesc {
+  text-align: center;
+  padding-right: 2rem;
+  padding-left: 1rem;
+  color: white;
+  font-weight: 300;
+}
+
+.navlinks {
+  background-color: white;
+  margin-left: 2rem;
+}
+
+.user {
+  margin-left: 2rem;
+  font-weight: 500;
+}
+
+.collapse {
+  margin-left: 1rem;
+  margin-right: 4rem;
+  padding-bottom: 1rem;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+/* .container {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background: white;
+}
+.section {
+  z-index: 0;
+  padding-top: 10rem;
+} */

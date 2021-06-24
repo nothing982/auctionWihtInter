@@ -1,0 +1,17 @@
+.alert-danger-box {
+  font-size: 1.3rem !important;
+  text-align: center;
+}
+
+.container {
+  color: white;
+  background: #333333;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 100vw;
+  min-height: calc(100vh - 16rem - 4rem - 3.5rem);
+}
+
+.icon {
+  text-align: center;
+}

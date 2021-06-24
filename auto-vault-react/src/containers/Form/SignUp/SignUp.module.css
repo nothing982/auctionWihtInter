@@ -1,0 +1,65 @@
+.error {
+  font-size: 1.3rem !important;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+.button {
+  color: white !important;
+  background: #ff1b68 !important;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: #ff1b68 !important;
+}
+
+.divider-text {
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.divider-text span {
+  padding: 7px;
+  font-size: 12px;
+  position: relative;
+  z-index: 2;
+}
+.divider-text:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  top: 55%;
+  left: 0;
+  z-index: 1;
+}
+
+.btn-facebook {
+  background-color: #405d9d;
+  color: #fff;
+}
+.btn-twitter {
+  background-color: #42aeec;
+  color: #fff;
+}
+.icon {
+  text-align: center;
+}
+
+.container {
+  color: white;
+  background: #333333;
+  font-weight: bold;
+  font-size: 1.5rem;
+  min-height: calc(100vh - 16rem - 4rem - 3.5rem);
+}
+.register-text {
+  padding-bottom: 0.3rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.phone-input {
+  width: 100%;
+}

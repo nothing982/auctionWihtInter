@@ -1,0 +1,17 @@
+@media (max-width: 35rem) {
+  .container {
+    background: #fafafa !important;
+    width: 100vw;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+
+.container {
+  background: #fafafa !important;
+  padding-top: 2.4rem;
+  margin: 0;
+  padding-right: 2rem;
+  width: 100vw;
+  text-align: center;
+}

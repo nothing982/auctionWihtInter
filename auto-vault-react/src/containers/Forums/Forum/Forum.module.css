@@ -1,0 +1,27 @@
+.button-search {
+  color: white;
+  background: #ff1b68;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: #ff1b68;
+}
+.button-search:hover {
+  color: #ff1b68;
+  background: white;
+  border: none;
+}
+
+.link {
+  color: #ff1b68;
+}
+
+.column-item {
+  display: inline-flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.table td {
+  width: 35%;
+}

@@ -1,0 +1,48 @@
+.heading2 {
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+a.card-title {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+img.card-img {
+  margin-top: 2rem;
+  padding-left: 0.5rem;
+  height: 10rem;
+  width: 11rem;
+}
+
+img.card-img-one {
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+}
+
+span.author {
+  /* margin-left: 15em; */
+  font-weight: 700;
+  font-size: 1rem;
+  color: #ff5454;
+}
+
+.paragraph {
+  padding: 1rem;
+  /* margin-right: 5em; */
+  text-align: justify;
+}
+
+span.heading2 {
+  margin-left: 2rem;
+  font-weight: 650;
+  font-size: 1.7rem;
+}
+
+@media (max-width: 28rem) {
+  .heading2 {
+    font-size: 1.4rem;
+  }
+}

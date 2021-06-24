@@ -1,0 +1,42 @@
+.nav-container {
+  border-top: 1px solid #d8d8d8 !important;
+  border-bottom: 1px solid #d8d8d8 !important;
+  z-index: 100 !important;
+  background: white !important;
+  width: 100%;
+}
+.nav {
+  color: black !important;
+  padding: 0.5rem;
+  background: white !important;
+}
+.nav:hover {
+  color: #ff1b68 !important;
+}
+.button-search {
+  color: white;
+  background: #ff1b68;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: #ff1b68;
+}
+.button-search:hover {
+  color: #ff1b68;
+  background: white;
+  border: none;
+}
+
+.nav-dropdown {
+  color: black !important;
+}
+
+.nav-dropdown:hover {
+  color: #ff1b68 !important;
+}
+
+@media (max-width: 36rem) {
+  .button-search {
+    margin-top: 0.7rem;
+  }
+}
